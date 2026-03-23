@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+
+    <!-- Favicon Image -->
+
+        <link rel="shortcut icon" href="./Images/FAVICON.png" type="image/x-icon">
+
+
+    <!-- Fonts Awesome cdn Link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <!-- Custom CSS File Link -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Custom Media File Link -->
+
+    <link rel="stylesheet" href="media.css">
+
+
+</head>
+
+<body>
+
+
+    <!-- Header Section Start -->
+
+    <header class="header">
+
+        <section class="flex">
+
+            <a href="index.html" class="logo">Educa.</a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="Search Courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search-box"></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="./Images/pic-1.jpg" alt="No Connection">
+                <h3>Name</h3>
+                <span>Student</span>
+                <a href="profile.html" class="btn">View Profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">Login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Header Section End -->
+
+    <!-- ------------------->
+
+    <!-- Side bar Section Start --> 
+
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="./Images/pic-1.jpg" alt="No Connection">
+            <h3>Name</h3>
+            <span>Student</span>
+            <a href="profile.html" class="btn">View Profile</a>
+        </div>
+
+        <nav class="navbar">
+            <a href="index.html"><i class="fas fa-home"></i><span>Home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>About Us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+        </nav>
+    </div>
+
+    <!-- Side bar Section End -->
+
+    <!-- ------------------->
+
+    <!-- Login Section -->
+
+    <section class="form-container">
+
+        <form action="" method="post">
+
+            <h3>Welcome back!</h3>
+
+            <p>Your Email <span>*</span></p>
+            <input type="email" name="email" placeholder="Enter your email" maxlength="100" required class="box">
+
+            <p>Your Password <span>*</span></p>
+            <input type="password" name="pass" placeholder="Enter your password" maxlength="50" required class="box">
+
+            <input type="submit" name="submit" value="login" class="btn">
+
+        </form>
+    </section>
+
+        <!-- Footer Section -->
+
+    <footer class="footer">
+       © 2026 Nova-Stack Technologies. All Rights Reserved.
+Developed by Mian Haseeb Nasir.
+    </footer>
+
+    
+    <!-- Custom JS File Link -->
+
+    <script src="script.js"></script>
